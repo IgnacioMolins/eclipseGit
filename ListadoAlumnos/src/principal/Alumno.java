@@ -11,6 +11,10 @@ public class Alumno {
 		this.dni = dni;
 	}
 
+	public Alumno() {
+		System.out.println("Constructor vacío desde mi rama");
+	}
+
 	public String toString() {
 		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
 	}
